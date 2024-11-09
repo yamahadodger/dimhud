@@ -1,5 +1,5 @@
 # Default Improved HUD
-Default Improved HUD is the UI mod for Team Fortress 2 with main focus on code cleanup and adding handy fixes.
+Default Improved HUD is a mod for Team Fortress 2 with main focus on code cleanup and adding handy fixes.
 
 # Features
 On initial release:
