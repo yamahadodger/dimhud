@@ -1,7 +1,7 @@
 # Default Improved HUD
 Default Improved HUD is the UI mod for Team Fortress 2 with main focus on code cleanup and adding handy fixes.
 
-# Features:
+# Features
 On initial release:
 - Improved code legibility with focus on code cleaniness and code minimalism (significant file size reductions)
 - Minimalistic Killstreak count for Minimal HUD (replaces killstreak label with killstreak icon)
