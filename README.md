@@ -1,2 +1,0 @@
-# dimhud
-Default Improved HUD
