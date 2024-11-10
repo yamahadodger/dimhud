@@ -15,5 +15,10 @@ On initial release:
 - Made Damage count more legible ‒ usage of larger font for normal DMG and even larger font for critical DMG
 - Now Eureka Effect interface matches to the design of PDA menu interface
 
+# GitHub-only adnotations
+- Files `.gitattributes`, `readme.md`, `sound` and `Development Resources` folder are omitted when downloading source-code
+- `sound` should be created manually with read-only attributes in order to prevent TF2 from creating `sound.cache` when using the HUD in-game for the first time
+- All files are formatted automatically and retain their original byte-code structure
+
 # License
 This work is marked with <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC0 1.0 Universal <span data-v-a0d4e8a8="" class="icon"><img data-v-a0d4e8a8="" width="20" height="20" src="https://chooser-beta.creativecommons.org/img/cc-logo.f0ab4ebe.svg"><img data-v-a0d4e8a8="" width="20" height="20" src="https://chooser-beta.creativecommons.org/img/cc-zero.f5450231.svg"></span></a>
