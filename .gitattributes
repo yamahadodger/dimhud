@@ -2,6 +2,6 @@
 .gitattributes export-ignore
 "/Development Resources" export-ignore
 readme.md export-ignore
-sound export-ignore
+#sound export-ignore
 # Auto-format files
 * text=auto
