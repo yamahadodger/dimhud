@@ -1,3 +1,5 @@
+# In usage for pulling out HUD source-code only
 "/Development Resources" export-ignore
 readme.md export-ignore
 sound export-ignore
+.gitattributes export-ignore
