@@ -1,5 +1,7 @@
-# In usage for pulling out HUD source-code only
+# Pull out HUD source-code files only
+.gitattributes export-ignore
 "/Development Resources" export-ignore
 readme.md export-ignore
 sound export-ignore
-.gitattributes export-ignore
+
+* text=auto
