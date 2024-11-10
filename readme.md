@@ -3,8 +3,8 @@ Default Improved HUD is a mod for Team Fortress 2 with main focus on code cleanu
 
 # Features
 On initial release:
-- Improved code legibility with focus on code cleaniness and code minimalism (significant file size reductions)
-- Minimalistic Killstreak count for Minimal HUD (replaces killstreak label with killstreak icon)
+- **Improved code legibility with focus on code cleaniness and code minimalism resulting in significant file size reductions**
+- Minimalistic Killstreak count for Minimal HUD ‒ replaces killstreak label with killstreak icon
 - Fixed Spell Book spell count cutting off at the bottom and tweaked spell book image to appear in Minimal HUD
 - Transparent spectator top and bottom borders
 - Fixed ping count in scoreboard that has been broken in the recent Team Fortress 2 update
