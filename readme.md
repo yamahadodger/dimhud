@@ -16,8 +16,9 @@ On initial release:
 - Now Eureka Effect interface matches to the design of PDA menu interface
 
 # GitHub adnotations
-- Files `.gitattributes`, `readme.md`, `sound` and `Development Resources` folder are omitted when downloading source-code files. These files still can be downloaded separately manually when needed
-- `sound` should be created manually in order to prevent TF2 from creating `sound.cache` when using the HUD in-game for the first time
+- Files `.gitattributes`, `readme.md`, ~~sound~~ and `Development Resources` folder are omitted when downloading source-code files. These files still can be downloaded separately manually when needed
+- **Obsolete** ‒ `sound` should be created manually in order to prevent TF2 from creating `sound.cache` when using the HUD in-game for the first time
+  - (2024-11-10) `sound` file has been removed from file exclusion in `.gitattributes` file and now will download
 - All files are formatted automatically and retain their original byte-code structure
 
 # License
