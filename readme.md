@@ -1,5 +1,5 @@
 # Default Improved HUD
-Default Improved HUD is a mod for Team Fortress 2 with main focus on code cleanup and adding handy fixes.
+Default Improved HUD is a mod for Team Fortress 2 with main focus on code cleanup while adding handy fixes.
 
 # Features
 On initial release:
@@ -16,7 +16,7 @@ On initial release:
 - Now Eureka Effect interface matches to the design of PDA menu interface
 
 # GitHub-only adnotations
-- Files `.gitattributes`, `readme.md`, `sound` and `Development Resources` folder are omitted when downloading source-code
+- Files `.gitattributes`, `readme.md`, `sound` and `Development Resources` folder are omitted when downloading source-code files
 - `sound` should be created manually with read-only attributes in order to prevent TF2 from creating `sound.cache` when using the HUD in-game for the first time
 - All files are formatted automatically and retain their original byte-code structure
 
