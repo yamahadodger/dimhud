@@ -1,0 +1,20 @@
+==backpackpanel,BEFORE==
+PrevPageButton,w20,x-25(-5)
+CurPageLabel,w40,x-45
+NextPageButton,w20,x0(+5)
+==backpackpanel,AFTER==
+PrevPageButton,w20,x-17 (x-30)
+PrevPageLabel,w20,x-13
+CurPageLabel,w40,x-33 (x-50)
+NextPageLabel,w20,x-17
+NextPageButton,w20,x0 (x+30)
+==storepage,BEFORE==
+PrevPageButton,w20,x-30
+CurPageLabel,w40,x-50
+NextPageButton,w20,0
+==storepage,AFTER==
+PrevPageButton,w20,x-17
+PrevPageLabel,w20,x-18
+CurPageLabel,w40,x-38
+NextPageLabel,w20,x-17
+NextPageButton,w20,x0
