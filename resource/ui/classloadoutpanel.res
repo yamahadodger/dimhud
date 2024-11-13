@@ -175,7 +175,7 @@ Resource/UI/FullLoadoutPanel.res
 		ypos 0
 		zpos -1
 		wide 335
-		tall 363
+		tall 370
 		autoResize 0
 		pinCorner 0
 		visible 1
@@ -191,7 +191,7 @@ Resource/UI/FullLoadoutPanel.res
 			angles_z 0
 			origin_x 190
 			origin_y 0
-			origin_z -51.5
+			origin_z -50.2
 			frame_origin_x 0
 			frame_origin_y 0
 			frame_origin_z 0
