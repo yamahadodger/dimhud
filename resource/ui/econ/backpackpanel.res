@@ -29,11 +29,11 @@ Resource/UI/FullLoadoutPanel.res
 		button_ypos 85
 		button_ydelta 80
 		button_override_delete_xpos 0
-		page_button_y 288
+		page_button_y 282
 		page_button_x_delta 3
 		page_button_y_delta 3
 		page_button_per_row 20
-		page_button_height 13
+		page_button_height 12
 		pagebuttons_kv
 		{
 			ControlName EditablePanel
@@ -49,7 +49,7 @@ Resource/UI/FullLoadoutPanel.res
 				fieldName Button
 				ControlName CExButton
 				wide 25
-				tall 13
+				tall 12
 				visible 1
 				bgcolor_override"0 0 0 0"
 				noitem_textcolor"117 107 94 255"
@@ -79,10 +79,11 @@ Resource/UI/FullLoadoutPanel.res
 				enabled 1
 				labelText #Store_Price_New
 				mouseinputenabled 0
-				paintbackground 0
+				paintbackground 1
 				proportionaltoparent 1
-				border StoreNewBorder
+				border ButtonBorder
 				fgcolor"10 10 10 255"
+				bgcolor_override"255 216 0 255"
 			}
 		}
 		modelpanels_kv
@@ -744,7 +745,7 @@ Resource/UI/FullLoadoutPanel.res
 		end_wide 300
 		end_tall 115
 		callout_inparents_x c-250
-		callout_inparents_y 290
+		callout_inparents_y 282
 		next_explanation ContextExplanation
 		TitleLabel
 		{
