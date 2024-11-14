@@ -427,28 +427,4 @@ Resource/UI/CharInfoArmorySubPanel.res
 		sound_depressed UI/buttonclick.wav
 		sound_released UI/buttonclickrelease.wav
 	}
-	//ReloadSchemeButton
-	//{
-	//	ControlName CExButton
-	//	fieldName ReloadSchemeButton
-	//	xpos c-180
-	//	ypos 345
-	//	zpos 25
-	//	wide 100
-	//	tall 15
-	//	autoResize 0
-	//	pinCorner 0
-	//	visible 0
-	//	enabled 1
-	//	tabPosition 0
-	//	labelText RELOADSCHEME
-	//	font HudFontSmallestBold
-	//	textAlignment center
-	//	textinsetx 50
-	//	dulltext 0
-	//	brighttext 0
-	//	Command reloadscheme
-	//	sound_depressed UI/buttonclick.wav
-	//	sound_released UI/buttonclickrelease.wav
-	//}
 }

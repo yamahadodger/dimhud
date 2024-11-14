@@ -617,8 +617,8 @@ Resource/UI/CharInfoLoadoutSubPanel.res
 	{
 		ControlName CExButton
 		fieldName ShowExplanationsButton
-		xpos c275
-		ypos 10
+		xpos c267
+		ypos 13
 		zpos 100
 		wide 20
 		tall 20
@@ -1859,8 +1859,8 @@ Resource/UI/CharInfoLoadoutSubPanel.res
 		end_y 100
 		end_wide 250
 		end_tall 120
-		callout_inparents_x c285
-		callout_inparents_y 30
+		callout_inparents_x c277
+		callout_inparents_y 33
 		TitleLabel
 		{
 			ControlName CExLabel
