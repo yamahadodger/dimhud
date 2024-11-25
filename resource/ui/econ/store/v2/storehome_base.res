@@ -417,7 +417,7 @@ Resource/UI/StoreHome_Base.res
 		ControlName ImagePanel
 		fieldName CartImage
 		xpos c-233
-		ypos 308
+		ypos 307
 		zpos 13
 		wide 24
 		tall 20

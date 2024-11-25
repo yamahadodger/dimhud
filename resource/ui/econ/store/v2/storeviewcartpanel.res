@@ -203,9 +203,9 @@ Resource/UI/StoreViewCartPanel.res
 		ControlName EditablePanel
 		fieldName ClientArea
 		xpos 0
-		ypos 55
+		ypos 49
 		wide f0
-		tall 368
+		tall 374
 		bgcolor_override"46 43 42 255"
 		HeaderLine
 		{
