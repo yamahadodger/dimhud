@@ -29,15 +29,15 @@ Resource/UI/Scoreboard.res
 	{
 		ControlName ImagePanel
 		fieldName BlueScoreBG
-		xpos -4
-		ypos 9
-		wide 290
-		tall 71
+		xpos 0
+		ypos 0
+		wide 320
+		tall 80
 		autoResize 0
 		pinCorner 0
 		visible 1
 		enabled 1
-		image ../hud/score_panel_blue_bg_solid
+		image ../hud/score_panel_blue_bg
 		scaleImage 1
 		if_mvm
 		{
@@ -48,8 +48,8 @@ Resource/UI/Scoreboard.res
 	{
 		ControlName ImagePanel
 		fieldName BlueTeamImage
-		xpos 7
-		ypos 9
+		xpos 11
+		ypos 0
 		zpos 20
 		wide 60
 		tall 60
@@ -94,15 +94,15 @@ Resource/UI/Scoreboard.res
 	{
 		ControlName ImagePanel
 		fieldName RedScoreBG
-		xpos 354
-		ypos 9
-		wide 290
-		tall 71
+		xpos 320
+		ypos 0
+		wide 320
+		tall 80
 		autoResize 0
 		pinCorner 0
 		visible 1
 		enabled 1
-		image ../hud/score_panel_red_bg_solid
+		image ../hud/score_panel_red_bg
 		scaleImage 1
 		if_mvm
 		{
@@ -114,8 +114,8 @@ Resource/UI/Scoreboard.res
 		ControlName ImagePanel
 		fieldName RedTeamImage
 		fieldName BlueTeamImage
-		xpos 571
-		ypos -5
+		xpos 567
+		ypos -12
 		zpos 20
 		wide 80
 		tall 80
@@ -161,10 +161,10 @@ Resource/UI/Scoreboard.res
 		ControlName EditablePanel
 		fieldName MainBG
 		xpos 0
-		ypos 38
+		ypos 62
 		zpos -1
 		wide 640
-		tall 410
+		tall 386
 		autoResize 0
 		pinCorner 0
 		visible 1
@@ -201,11 +201,11 @@ Resource/UI/Scoreboard.res
 	{
 		ControlName CExLabel
 		fieldName BlueTeamScore
-		font ScoreboardTeamScoreNew
+		font ScoreboardTeamScore
 		labelText %blueteamscore%
 		textAlignment east
-		xpos 175
-		ypos 12
+		xpos 210//177
+		ypos 7
 		zpos 4
 		wide 100
 		tall 55
@@ -222,12 +222,12 @@ Resource/UI/Scoreboard.res
 	{
 		ControlName CExLabel
 		fieldName BlueTeamScoreDropshadow
-		font ScoreboardTeamScoreNew
+		font ScoreboardTeamScore
 		fgcolor Black
 		labelText %blueteamscore%
 		textAlignment east
-		xpos 176
-		ypos 13
+		xpos 211//178
+		ypos 8
 		zpos 4
 		wide 100
 		tall 55
@@ -248,7 +248,7 @@ Resource/UI/Scoreboard.res
 		labelText %blueteamplayercount%
 		textAlignment west
 		xpos 80
-		ypos 42
+		ypos 40
 		wide 160
 		tall 15
 		autoResize 0
@@ -285,11 +285,11 @@ Resource/UI/Scoreboard.res
 	{
 		ControlName CExLabel
 		fieldName RedTeamScore
-		font ScoreboardTeamScoreNew
+		font ScoreboardTeamScore
 		labelText %redteamscore%
 		textAlignment west
-		xpos 368
-		ypos 12
+		xpos 333
+		ypos 7
 		zpos 4
 		wide 100
 		tall 55
@@ -306,12 +306,12 @@ Resource/UI/Scoreboard.res
 	{
 		ControlName CExLabel
 		fieldName RedTeamScoreDropshadow
-		font ScoreboardTeamScoreNew
+		font ScoreboardTeamScore
 		fgcolor Black
 		labelText %redteamscore%
 		textAlignment west
-		xpos 369
-		ypos 13
+		xpos 334
+		ypos 8
 		zpos 4
 		wide 100
 		tall 55
@@ -332,7 +332,7 @@ Resource/UI/Scoreboard.res
 		labelText %redteamplayercount%
 		textAlignment east
 		xpos 401
-		ypos 42
+		ypos 40
 		wide 160
 		tall 15
 		autoResize 0
@@ -344,125 +344,20 @@ Resource/UI/Scoreboard.res
 			visible 0
 		}
 	}
-	ServerLabel
-	{
-		ControlName CExLabel
-		fieldName ServerLabel
-		font ScoreboardVerySmall
-		labelText %server%
-		textAlignment west
-		xpos 11
-		xpos_hidef 31
-		ypos 60
-		ypos_lodef 62
-		wide 300
-		tall 20
-		autoResize 0
-		pinCorner 0
-		visible 0
-		enabled 1
-		if_mvm
-		{
-			ypos 0
-			visible 1
-		}
-	}
-	TimerBG
-	{
-		ControlName EditablePanel
-		fieldName TimerBG
-		xpos 280
-		ypos -3
-		zpos -1
-		wide 80
-		tall 43
-		autoResize 0
-		pinCorner 0
-		visible 1
-		enabled 1
-		border TFThinLineBorder
-		if_mvm
-		{
-			visible 0
-		}
-	}
-	ServerTimeLeftInsetBG
-	{
-		ControlName EditablePanel
-		fieldName ServerTimeLeftInsetBG
-		xpos 286
-		ypos 12
-		zpos 1
-		wide 68
-		tall 23
-		autoResize 0
-		pinCorner 0
-		visible 1
-		enabled 1
-		border TFFatLineBorderOpaque
-		if_mvm
-		{
-			visible 0
-		}
-	}
-	ServerTimeLeftLabel
-	{
-		ControlName CExLabel
-		fieldName ServerTimeLeftLabel
-		font ScoreboardVerySmall
-		labelText #Scoreboard_TimeLeftLabel
-		textAlignment center
-		xpos 284
-		ypos 2
-		zpos 2
-		wide 72
-		tall 10
-		autoResize 0
-		pinCorner 0
-		visible 1
-		enabled 1
-		if_mvm
-		{
-			visible 0
-		}
-	}
-	ServerTimeLeftValue
-	{
-		ControlName CExLabel
-		fieldName ServerTimeLeftValue
-		font ScoreboardMediumSmall
-		labelText %servertime%
-		textAlignment center
-		xpos 284
-		ypos 14
-		zpos 2
-		wide 72
-		tall 20
-		autoResize 0
-		pinCorner 0
-		visible 1
-		enabled 1
-		fgcolor BrightYellow
-		centerwrap 1
-		if_mvm
-		{
-			visible 0
-		}
-	}
 	ServerTimeLeft
 	{
 		ControlName CExLabel
 		fieldName ServerTimeLeft
 		font ScoreboardVerySmall
-		labelText %servertimeleft%
+		labelText %servertime%
 		textAlignment east
-		xpos 305
-		ypos 60
-		wide 300
-		tall 20
+		xpos 530
+		ypos 387
+		wide 100
+		tall 12
 		autoResize 0
 		pinCorner 0
-		visible 0
+		visible 1
 		enabled 1
 		if_mvm
 		{
@@ -514,27 +409,6 @@ Resource/UI/Scoreboard.res
 			visible 0
 		}
 	}
-	VerticalLine
-	{
-		ControlName ImagePanel
-		fieldName VerticalLine
-		xpos 319
-		ypos 70
-		zpos 2
-		wide 2
-		tall 292
-		autoResize 0
-		pinCorner 0
-		visible 0
-		enabled 1
-		tabPosition 0
-		fillcolor"0 0 0 153"
-		PaintBackgroundType 0
-		if_mvm
-		{
-			visible 0
-		}
-	}
 	Spectators
 	{
 		ControlName CExLabel
@@ -581,17 +455,17 @@ Resource/UI/Scoreboard.res
 	{
 		ControlName ImagePanel
 		fieldName ShadedBar
-		xpos 4
+		xpos 7
 		ypos 372
-		zpos -2
-		wide 633
-		tall 72
+		zpos -1
+		wide 627
+		tall 70
 		autoResize 0
 		pinCorner 0
 		visible 1
 		enabled 1
 		tabPosition 0
-		fillcolor"0 0 0 153"
+		fillcolor"0 0 0 80"
 		PaintBackgroundType 0
 		if_mvm
 		{
@@ -622,14 +496,15 @@ Resource/UI/Scoreboard.res
 		ControlName CTFPlayerModelPanel
 		fieldName classmodelpanel
 		xpos -10
-		ypos 185
-		zpos 10
+		ypos 182
+		zpos 99
 		wide 130
 		tall 260
 		autoResize 0
 		pinCorner 0
 		visible 0
 		enabled 1
+		mouseinputenabled 0
 		render_texture 0
 		fov 12
 		allow_rot 1
@@ -666,7 +541,7 @@ Resource/UI/Scoreboard.res
 				angles_z 0
 				origin_x 105
 				origin_y 4
-				origin_z -82
+				origin_z -85
 			}
 			Sniper
 			{
@@ -676,7 +551,7 @@ Resource/UI/Scoreboard.res
 				angles_z 0
 				origin_x 130
 				origin_y -3
-				origin_z -97
+				origin_z -102
 			}
 			Soldier
 			{
@@ -686,7 +561,7 @@ Resource/UI/Scoreboard.res
 				angles_z 0
 				origin_x 145
 				origin_y -5
-				origin_z -90
+				origin_z -95
 			}
 			Demoman
 			{
@@ -696,7 +571,7 @@ Resource/UI/Scoreboard.res
 				angles_z 0
 				origin_x 138
 				origin_y -4
-				origin_z -93
+				origin_z -98
 			}
 			Medic
 			{
@@ -706,7 +581,7 @@ Resource/UI/Scoreboard.res
 				angles_z 0
 				origin_x 150
 				origin_y -5
-				origin_z -96
+				origin_z -98
 			}
 			Heavy
 			{
@@ -716,7 +591,7 @@ Resource/UI/Scoreboard.res
 				angles_z 0
 				origin_x 200
 				origin_y 0
-				origin_z -102
+				origin_z -107
 			}
 			Pyro
 			{
@@ -726,7 +601,7 @@ Resource/UI/Scoreboard.res
 				angles_z 0
 				origin_x 175
 				origin_y -5
-				origin_z -90
+				origin_z -95
 			}
 			Spy
 			{
@@ -736,7 +611,7 @@ Resource/UI/Scoreboard.res
 				angles_z 0
 				origin_x 160
 				origin_y 0
-				origin_z -95
+				origin_z -98
 			}
 			Engineer
 			{
@@ -746,27 +621,8 @@ Resource/UI/Scoreboard.res
 				angles_z 0
 				origin_x 140
 				origin_y -2
-				origin_z -82
+				origin_z -88
 			}
-		}
-	}
-	PlayerNameBG
-	{
-		ControlName EditablePanel
-		fieldName PlayerNameBG
-		xpos 105
-		ypos 372
-		zpos -1
-		wide 485
-		tall 29
-		autoResize 0
-		pinCorner 0
-		visible 1
-		enabled 1
-		border TFThinLineBorder
-		if_mvm
-		{
-			visible 0
 		}
 	}
 	PlayerNameLabel
@@ -798,8 +654,8 @@ Resource/UI/Scoreboard.res
 		font ScoreboardVerySmall
 		labelText %server%
 		textAlignment east
-		xpos 315
-		ypos 375
+		xpos 365
+		ypos 379
 		zpos 3
 		wide 265
 		tall 12
@@ -816,11 +672,11 @@ Resource/UI/Scoreboard.res
 	{
 		ControlName CExLabel
 		fieldName mapname
-		font ScoreboardVerySmall
+		font ScoreboardVerySmallBold
 		labelText %mapname%
 		textAlignment east
-		xpos 315
-		ypos 385
+		xpos 365
+		ypos 371
 		zpos 3
 		wide 265
 		tall 12
@@ -841,11 +697,11 @@ Resource/UI/Scoreboard.res
 		xpos 115
 		ypos 397
 		zpos 3
-		wide 465
+		wide 516
 		tall 1
 		autoResize 0
 		pinCorner 0
-		visible 0
+		visible 1
 		enabled 1
 		tabPosition 0
 		fillcolor"127 127 127 153"
@@ -853,27 +709,6 @@ Resource/UI/Scoreboard.res
 		if_mvm
 		{
 			visible 1
-		}
-	}
-	PlayerScoreLabel
-	{
-		ControlName CExLabel
-		fieldName PlayerScoreLabel
-		font ScoreboardMedium
-		labelText %playerscore%
-		textAlignment east
-		xpos 440
-		ypos 377
-		zpos 3
-		wide 140
-		tall 20
-		autoResize 0
-		pinCorner 0
-		visible 0
-		enabled 0
-		if_mvm
-		{
-			visible 0
 		}
 	}
 	LocalPlayerDuelStatsPanel
@@ -1197,24 +1032,6 @@ Resource/UI/Scoreboard.res
 			pinCorner 0
 			visible 1
 			enabled 1
-		}
-		GameType
-		{
-			ControlName CExLabel
-			fieldName gametype
-			font ScoreboardVerySmall
-			labelText %gametype%
-			textAlignment east
-			xpos 435
-			ypos 32
-			zpos 3
-			wide 145
-			tall 20
-			autoResize 0
-			pinCorner 0
-			visible 0
-			enabled 0
-			fgcolor"185 177 153 255"
 		}
 		Assists
 		{
