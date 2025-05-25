@@ -29,11 +29,11 @@ Resource/UI/FullLoadoutPanel.res
 		button_ypos 85
 		button_ydelta 80
 		button_override_delete_xpos 0
-		page_button_y 282
+		page_button_y 288
 		page_button_x_delta 3
 		page_button_y_delta 3
 		page_button_per_row 20
-		page_button_height 12
+		page_button_height 13
 		pagebuttons_kv
 		{
 			ControlName EditablePanel
@@ -49,7 +49,7 @@ Resource/UI/FullLoadoutPanel.res
 				fieldName Button
 				ControlName CExButton
 				wide 25
-				tall 12
+				tall 13
 				visible 1
 				bgcolor_override"0 0 0 0"
 				noitem_textcolor"117 107 94 255"
@@ -60,6 +60,7 @@ Resource/UI/FullLoadoutPanel.res
 				font HudFontSmallestBold
 				sound_depressed UI/buttonclick.wav
 				sound_released UI/buttonclickrelease.wav
+				button_activation_type 2
 			}
 			New
 			{
@@ -372,98 +373,30 @@ Resource/UI/FullLoadoutPanel.res
 	{
 		ControlName CExButton
 		fieldName PrevPageButton
-		xpos c185
-		ypos 342
+		xpos 0
+		ypos 0
 		zpos 1
-		wide 20
-		tall 20
-		autoResize 0
-		pinCorner 0
+		wide 0
+		tall 0
 		visible 1
 		enabled 1
-		tabPosition 0
 		labelText &a
-		font HudFontSmallBold
-		textAlignment center
-		dulltext 0
-		brighttext 0
 		Command prevpage
 		sound_depressed UI/buttonclick.wav
 		sound_released UI/buttonclickrelease.wav
-	}
-	PrevPageLabel
-	{
-		ControlName CExLabel
-		fieldName PrevPageLabel
-		font HudFontSmallBold
-		labelText <
-		textAlignment center
-		xpos c202
-		ypos 342
-		zpos 1
-		wide 20
-		tall 20
-		autoResize 1
-		pinCorner 0
-		visible 1
-		enabled 1
-		fgcolor_override"235 226 202 255"
-	}
-	CurPageLabel
-	{
-		ControlName CExLabel
-		fieldName CurPageLabel
-		font HudFontSmallBold
-		labelText %backpackpage%
-		textAlignment center
-		xpos c215
-		ypos 342
-		zpos 1
-		wide 40
-		tall 20
-		autoResize 1
-		pinCorner 0
-		visible 1
-		enabled 1
-		fgcolor_override"200 80 60 255"
-	}
-	NextPageLabel
-	{
-		ControlName CExLabel
-		fieldName NextPageLabel
-		font HudFontSmallBold
-		labelText >
-		textAlignment center
-		xpos c248
-		ypos 342
-		zpos 1
-		wide 20
-		tall 20
-		autoResize 1
-		pinCorner 0
-		visible 1
-		enabled 1
-		fgcolor_override"235 226 202 255"
 	}
 	NextPageButton
 	{
 		ControlName CExButton
 		fieldName NextPageButton
-		xpos c265
-		ypos 342
+		xpos 0
+		ypos 0
 		zpos 1
-		wide 20
-		tall 20
-		autoResize 0
-		pinCorner 0
+		wide 0
+		tall 0
 		visible 1
 		enabled 1
-		tabPosition 0
 		labelText &d
-		font HudFontSmallBold
-		textAlignment center
-		dulltext 0
-		brighttext 0
 		Command nextpage
 		sound_depressed UI/buttonclick.wav
 		sound_released UI/buttonclickrelease.wav

@@ -314,6 +314,29 @@ Resource/UI/StorePage.res
 		sound_depressed UI/buttonclick.wav
 		sound_released UI/buttonclickrelease.wav
 	}
+	PrevPageButtonPlaceholder
+	{
+		ControlName CExButton
+		fieldName PrevPageButtonPlaceholder
+		xpos c190
+		ypos 280
+		zpos 4
+		wide 20
+		tall 20
+		autoResize 0
+		pinCorner 0
+		visible 1
+		enabled 1
+		tabPosition 0
+		labelText A
+		font HudFontSmallBold
+		textAlignment center
+		keyboardinputenabled 0
+		mouseinputenabled 0
+		dulltext 0
+		brighttext 0
+		defaultFgColor_override TanDarker
+	}
 	PrevPageLabel
 	{
 		ControlName CExLabel
@@ -338,6 +361,25 @@ Resource/UI/StorePage.res
 		fieldName CurPageLabel
 		font HudFontSmallBold
 		labelText %backpackpage%
+		textAlignment center
+		xpos c220
+		ypos 280
+		zpos 5
+		wide 40
+		tall 20
+		autoResize 1
+		pinCorner 0
+		visible 1
+		enabled 1
+		fgcolor_override"200 80 60 255"
+		bgcolor_override"24 22 20 255"
+	}
+	CurPageLabelPlaceholder
+	{
+		ControlName CExLabel
+		fieldName CurPageLabelPlaceholder
+		font HudFontSmallBold
+		labelText"1/1"
 		textAlignment center
 		xpos c220
 		ypos 280
@@ -390,6 +432,29 @@ Resource/UI/StorePage.res
 		Command nextpage
 		sound_depressed UI/buttonclick.wav
 		sound_released UI/buttonclickrelease.wav
+	}
+	NextPageButtonPlaceholder
+	{
+		ControlName CExButton
+		fieldName NextPageButtonPlaceholder
+		xpos c270
+		ypos 280
+		zpos 4
+		wide 20
+		tall 20
+		autoResize 0
+		pinCorner 0
+		visible 1
+		enabled 1
+		tabPosition 0
+		labelText D
+		font HudFontSmallBold
+		textAlignment center
+		keyboardinputenabled 0
+		mouseinputenabled 0
+		dulltext 0
+		brighttext 0
+		defaultFgColor_override TanDarker
 	}
 	PriceLabel
 	{

@@ -697,7 +697,7 @@ Resource/UI/Scoreboard.res
 		xpos 115
 		ypos 397
 		zpos 3
-		wide 516
+		wide 517
 		tall 1
 		autoResize 0
 		pinCorner 0

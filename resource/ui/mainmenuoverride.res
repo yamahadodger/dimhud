@@ -1301,112 +1301,67 @@ Resource/UI/MainMenuOverride.res
 				{
 					0
 					{
-						item"Halloween 2024 Key"
+						item"Decoder Ring"
 						show_market 0
 					}
 					1
 					{
-						item"Halloween 2024 Case"
-						show_market 1
+						item"Backpack Expander"
+						show_market 0
 					}
 					2
 					{
-						item"Scream Fortress 2024 War Paint Key"
+						item"Customize Texture Tool"
 						show_market 0
 					}
 					3
 					{
-						item"Scream Fortress 2024 War Paint Case"
-						show_market 1
+						item"Gift Wrap"
+						show_market 0
 					}
 					4
 					{
-						item"Taunt: Crushing Defeat"
+						item"Gift - 1 Player"
 						show_market 0
 					}
 					5
 					{
-						item"Taunt: Peace Out"
+						item"Gift - 24 Players"
 						show_market 0
 					}
 					6
 					{
-						item"Taunt: Commending Clap"
+						item"Name Tag"
 						show_market 0
 					}
 					7
 					{
-						item"Taunt: The Punchline"
+						item"Description Tag"
 						show_market 0
 					}
 					8
 					{
-						item"Map Token Toxic"
+						item"Duel MiniGame"
 						show_market 0
 					}
 					9
 					{
-						item"Map Token Darkmarsh"
+						item"Tour of Duty Ticket"
 						show_market 0
 					}
 					10
 					{
-						item"Map Token Freaky Fair"
+						item"MvM Squad Surplus Voucher"
 						show_market 0
 					}
 					11
 					{
-						item"Map Token Dynamite"
+						item"Jungle Inferno Contracts Pass"
 						show_market 0
 					}
 					12
 					{
-						item"Map Token Circus"
-						show_market 0
-					}
-					13
-					{
-						item"Map Token Outburst"
-						show_market 0
-					}
-					14
-					{
-						item"Map Token Blazehattan"
-						show_market 0
-					}
-					15
-					{
-						item"Strange Filter: Toxic (Community)"
-						show_market 0
-					}
-					16
-					{
-						item"Strange Filter: Darkmarsh (Community)"
-						show_market 0
-					}
-					17
-					{
-						item"Strange Filter: Freaky Fair (Community)"
-						show_market 0
-					}
-					18
-					{
-						item"Strange Filter: Dynamite (Community)"
-						show_market 0
-					}
-					19
-					{
-						item"Strange Filter: Circus (Community)"
-						show_market 0
-					}
-					20
-					{
-						item"Strange Filter: Outburst (Community)"
-						show_market 0
-					}
-					21
-					{
-						item"Strange Filter: Blazehattan (Community)"
+						item"Competitive Matchmaking Official"
 						show_market 0
 					}
 				}
