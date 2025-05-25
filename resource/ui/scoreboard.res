@@ -204,7 +204,7 @@ Resource/UI/Scoreboard.res
 		font ScoreboardTeamScore
 		labelText %blueteamscore%
 		textAlignment east
-		xpos 210//177
+		xpos 210
 		ypos 7
 		zpos 4
 		wide 100
@@ -226,7 +226,7 @@ Resource/UI/Scoreboard.res
 		fgcolor Black
 		labelText %blueteamscore%
 		textAlignment east
-		xpos 211//178
+		xpos 211
 		ypos 8
 		zpos 4
 		wide 100
